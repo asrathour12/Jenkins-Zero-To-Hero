@@ -65,9 +65,9 @@ pipeline {
      always {
       // Fail the build if critical warnings are detected
       warnError 'Critical warnings found'
+               }
              }
-           }
-        }
-      } 
-    }
-  } 
+          }
+        } 
+      }
+    } 
